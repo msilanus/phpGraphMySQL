@@ -11,6 +11,8 @@ Nous créons donc une base nommée `ruche` et un table nommée `masse` avec les 
 - `date` : type `date`
 - `masse`: type `float`
 
+![BDD](http://silanus.fr/sin/wp-content/uploads/2017/03/bdd.png)
+
 ## Peuplement de la base
 
 Dans le système réel, un programme se charge de mesurer la masse et de l'enregistrer dans la base. Pour les besoins de cette démo, nous allons peupler la base à l'aide d'un fichier .ods obtenu à partir de LibreOffice Calc.
@@ -21,9 +23,13 @@ Dans le système réel, un programme se charge de mesurer la masse et de l'enreg
 
 - Renommer la feuille de calcul du même nom que la table : `masse`
 
+![ods file](http://silanus.fr/sin/wp-content/uploads/2017/03/libreOfficeCalc.png)
+
 - Dans phpmyadmin, cliquer sur le bouton Importer, sélectionner le Format `OpenDocument Spreadsheet`, parcourir le système de fichiers pour sélectionner le fichier .ods qui contient les données, cocher la case `La première ligne du fichier contient le nom des colonnes de la table`, puis cliquer sur le bouton Exécuter.
 
 Si tout c'est bien passé, la table doit désormais contenir les données.
+
+![importer les données](http://silanus.fr/sin/wp-content/uploads/2017/03/importer-768x582.png)
 
 ## Génération de l'image
 
